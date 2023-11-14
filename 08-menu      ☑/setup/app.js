@@ -94,8 +94,6 @@ filterBtns.forEach (function (btn) {
 })
 
 
-
-
 const sectionCenter = document.querySelector('.section-center')
 
 window.addEventListener('DOMContentLoaded', () => {
