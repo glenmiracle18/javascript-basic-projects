@@ -65,10 +65,10 @@ scrollLinks.forEach((link) => {
         let position = element.offsetTop - navHeight;
 
         if (!fixedNav) {
-            position = element - navHeight
+            position = position - navHeight
         } 
         if (navHeight > 82) {
-            position = element + linksContainerHeight;
+            position = position + linksContainerHeight;
         }
         window.scrollTo({
             left: 0,
